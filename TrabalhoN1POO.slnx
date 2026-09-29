@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="VetorialApp.Tests/VetorialApp.Tests.csproj" />
+  <Project Path="VetorialApp/VetorialApp.csproj" />
+</Solution>
