@@ -17,7 +17,7 @@ public class Ponto
 
     public string SalvarEmString()
     {
-        return $"{x},{y}";
+        return $"{x};{y}";
     }
 
     public void CarregarDeString(string texto)

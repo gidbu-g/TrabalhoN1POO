@@ -24,7 +24,7 @@ public class Cor
             return 0;
         }
 
-        if (valor > 256)
+        if (valor > 255)
         {
             return 255;
         }
@@ -34,7 +34,7 @@ public class Cor
 
     public string SalvarEmString()
     {
-        return $"{r},{b},{g}";
+        return $"{r},{g},{b}";
     }
 
     public void CarregarDeString(string texto)
@@ -42,6 +42,6 @@ public class Cor
         string[] partes = texto.Split(',');
         r = LimitarComponente(int.Parse(partes[0]));
         g = LimitarComponente(int.Parse(partes[1]));
-        b = LimitarComponente(int.Parse(partes[1]));
+        b = LimitarComponente(int.Parse(partes[2]));
     }
 }

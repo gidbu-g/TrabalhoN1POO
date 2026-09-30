@@ -15,7 +15,7 @@ public class PontoTest
         string resultado = ponto.SalvarEmString();
 
         // Assert
-        Assert.Equal(resultado, "20;260");
+        Assert.Equal("20;260", resultado);
     }
 
     [Fact]
